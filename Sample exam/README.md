@@ -63,7 +63,7 @@ that has the following:
 	*	`removePlayable(id)`
 		*	Removes a playable from this playlist, and the playable must have an `id` equal to the provided `id`
 		*	Enables chaining
-		*	Throws an error, if a playlist with the provided id is not contained in the player 
+		*	Throws an error, if a playable with the provided id is not contained in the playlist 
 	*	`removePlayable(playable)`
 		*	Removes a playable from this playlist, and the playable must have an `id` equal to the `id` of the provided playable
 		*	Enables chaining
